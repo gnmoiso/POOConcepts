@@ -7,5 +7,19 @@
       <FileName>Date.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="POOConcepts.Core.Employee">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="POOConcepts.Core.Employee.GetValurToPay" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Employee.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
