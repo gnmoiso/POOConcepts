@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="POOConcepts.Core.Date">
-    <Position X="9.25" Y="3.75" Width="2.75" />
+    <Position X="9.25" Y="3.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
       <FileName>Date.cs</FileName>
@@ -13,27 +13,54 @@
       <HashCode>ABAAAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAgg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BornDate" />
+      <Property Name="HireDate" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="POOConcepts.Core.SalaryEmployee">
-    <Position X="11.25" Y="0.75" Width="2.25" />
+    <Position X="11.25" Y="0.75" Width="2" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAgAAAEAAAAAAAACAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOConcepts.Core.HourlyEmployeecs">
-    <Position X="12.25" Y="4" Width="2.5" />
+    <Position X="11.75" Y="3.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AIAAAAAAAAQAAAAEAAwAAAAAAAABAAAIAAAAAAAAAAE=</HashCode>
       <FileName>HourlyEmployeecs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOConcepts.Core.CommissionEmployee">
-    <Position X="6" Y="0.75" Width="3" />
+    <Position X="6" Y="0.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAIAAQAAAAAAEAAEAAAABAAAAAAAAAAIAAgAAAAEAAA=</HashCode>
       <FileName>CommissionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="POOConcepts.Core.BaseCommissionEmployee">
+    <Position X="3.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommissionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POOConcepts.Core.Invoice">
+    <Position X="7" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAEAAAAAAAAAAAAAAAIAAAAgAAAAgA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="POOConcepts.Core.IPay">
+    <Position X="4" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

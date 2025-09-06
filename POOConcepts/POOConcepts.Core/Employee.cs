@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOConcepts.Core
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
         // Atributes
         public Date BornDate { get; set; } = null!;
