@@ -1,24 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="POOConcepts.Core.Date">
-    <Position X="6.5" Y="2.5" Width="2.75" />
+    <Position X="9.25" Y="3.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
       <FileName>Date.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOConcepts.Core.Employee">
-    <Position X="10" Y="1.5" Width="1.5" />
-    <NestedTypes>
-      <Class Name="POOConcepts.Core.Employee.GetValurToPay" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Employee.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
+    <Position X="9.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAEAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>ABAAAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAgg=</HashCode>
       <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POOConcepts.Core.SalaryEmployee">
+    <Position X="11.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAgAAAEAAAAAAAACAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>SalaryEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POOConcepts.Core.HourlyEmployeecs">
+    <Position X="12.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAAAEAAwAAAAAAAABAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>HourlyEmployeecs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POOConcepts.Core.CommissionEmployee">
+    <Position X="6" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAEAAEAAAABAAAAAAAAAAIAAgAAAAEAAA=</HashCode>
+      <FileName>CommissionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

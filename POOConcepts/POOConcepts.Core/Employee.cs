@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOConcepts.Core
 {
-    internal abstract class Employee
+    public abstract class Employee
     {
         // Atributes
         public Date BornDate { get; set; } = null!;
@@ -19,7 +19,7 @@ namespace POOConcepts.Core
         //Methods
         public abstract decimal GetValueToPay();
         public override string ToString() => $"{id}\t{FirstName} {LastName}\n\t" +
-            $"Hire date : {HireDate}\n\t" +
-            $"Salary....: {GetValueToPay():C2}";
+            $"Born date.....: {BornDate:N2}\n\t" +
+            $"Hire date.....: {HireDate:N2}\n\t";
     }
 }
